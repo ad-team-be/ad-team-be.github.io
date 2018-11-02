@@ -1,0 +1,553 @@
+@font-face {
+  font-family: 'titre';
+  src: url("http://dorabbservice.be/fonts/typo.woff2") format("woff2"), url("http://dorabbservice.be/fonts/typo.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+.spacing {
+  padding-top: 25px;
+  padding-bottom: 25px; }
+
+.nopad {
+  padding: 0px;
+  margin: 0px; }
+
+i {
+  color: #27ae60;
+  font-style: normal; }
+
+header .navbar {
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 0px;
+  background-color: #27ae60;
+  border-bottom: 1px solid #27ae60;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px; }
+  header .navbar .navbar-nav {
+    width: 100%;
+    text-align: center; }
+    header .navbar .navbar-nav .active a {
+      background-color: transparent;
+      color: #fff;
+      border-bottom: 1px solid #27ae60;
+      padding-bottom: 5px; }
+      header .navbar .navbar-nav .active a:hover {
+        background-color: transparent; }
+    header .navbar .navbar-nav li {
+      font-family: 'Montserrat', sans-serif;
+      float: none;
+      display: inline-block;
+      padding-left: 15px;
+      padding-right: 15px;
+      font-size: 22px;
+      letter-spacing: 1px;
+      text-shadow: 1px 1px #000;
+      font-weight: 400; }
+      header .navbar .navbar-nav li a {
+        color: #fff;
+        -webkit-transition: 0.4s;
+        -o-transition: 0.4s;
+        transition: 0.4s; }
+        header .navbar .navbar-nav li a:hover {
+          font-size: 24px;
+          text-shadow: 2px 1px rgba(0, 0, 0, 0.2); }
+        header .navbar .navbar-nav li a:focus {
+          background-color: transparent !important;
+          color: #fff !important; }
+
+#page01 {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  height: 450px;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/back01.jpg");
+  background-color: #2a2937;
+  background-position: 50% 50%;
+  height: auto;
+  overflow: hidden; }
+  #page01 .boxText {
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    padding-top: 210px;
+    padding-bottom: 150px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top: 2px solid #27ae60;
+    border-bottom: 2px solid #27ae60; }
+    #page01 .boxText .logo {
+      position: absolute;
+      left: 50%;
+      margin-left: -300px;
+      width: 600px;
+      height: 300px;
+      background-image: url("../img/logo.png");
+      background-size: cover; }
+    #page01 .boxText .text {
+      width: 700px; }
+      #page01 .boxText .text h1 {
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 0px;
+        letter-spacing: 1px;
+        font-size: 5rem;
+        font-weight: bolder;
+        color: #27ae60; }
+      #page01 .boxText .text h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3rem;
+        color: #fff;
+        font-weight: 200; }
+      #page01 .boxText .text p {
+        font-family: 'Montserrat', sans-serif;
+        padding-right: 50px;
+        color: #fff;
+        font-size: 22px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        font-weight: 200; }
+      #page01 .boxText .text a {
+        color: #27ae60; }
+      #page01 .boxText .text i {
+        font-weight: bolder;
+        color: #27ae60; }
+      #page01 .boxText .text .button {
+        font-size: 18px;
+        border: 2px solid #27ae60;
+        padding: 10px 40px;
+        color: #fff;
+        border-radius: 5px; }
+
+#suite, #repa {
+  background-image: -webkit-linear-gradient(330deg, #1D976C 0%, #2e7c4b 100%);
+  background-image: -o-linear-gradient(330deg, #1D976C 0%, #2e7c4b 100%);
+  background-image: linear-gradient(120deg, #1D976C 0%, #2e7c4b 100%);
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  #suite h2, #repa h2 {
+    font-size: 3.8rem; }
+  #suite h3, #repa h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+    text-shadow: 2px 2px grey; }
+  #suite p, #repa p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.3rem;
+    text-shadow: 1px 1px grey; }
+  #suite ul, #repa ul {
+    font-size: 2rem; }
+    #suite ul li, #repa ul li {
+      padding: 10px 0px; }
+  #suite .yello, #repa .yello {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    border-bottom: 2px solid #fff; }
+
+#presentation {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  height: 450px;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  background-image: url("../img/back02.jpg"); }
+  #presentation .boxText {
+    position: relative;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    width: 60%;
+    left: 50%;
+    margin-left: -30%;
+    font-family: 'Raleway', sans-serif;
+    color: #fff; }
+    #presentation .boxText h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 5rem;
+      font-weight: bolder;
+      margin: 0px;
+      border-bottom: 2px solid #27ae60;
+      font-weight: 200;
+      margin-bottom: 20px;
+      padding-bottom: 20px; }
+    #presentation .boxText h2 {
+      font-size: 3rem;
+      margin: 0px;
+      padding-bottom: 30px; }
+    #presentation .boxText p {
+      font-family: 'Montserrat', sans-serif;
+      margin-top: 20px;
+      font-size: 19px;
+      color: #fff; }
+
+#services2, #contact2 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  background-image: url("../img/back03.jpg"); }
+  #services2 h1, #contact2 h1 {
+    color: #fff;
+    font-size: 3.8rem; }
+  #services2 h3, #contact2 h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    padding-bottom: 15px; }
+  #services2 p, #contact2 p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.3rem;
+    text-shadow: 1px 1px grey; }
+  #services2 ol li, #contact2 ol li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    margin: 20px 10px; }
+  #services2 h1, #contact2 h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+    font-weight: bolder;
+    margin: 0px;
+    border-bottom: 2px solid #27ae60;
+    font-weight: 200;
+    margin-bottom: 20px;
+    padding-bottom: 20px; }
+  #services2 h2, #contact2 h2 {
+    font-size: 3rem;
+    margin: 0px;
+    padding-bottom: 30px; }
+  #services2 p, #contact2 p {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    font-size: 19px;
+    color: #fff; }
+  #services2 .boxImage, #contact2 .boxImage {
+    position: relative;
+    left: 50%;
+    margin-left: -40%;
+    text-align: center;
+    width: 80%;
+    height: 300px;
+    background-color: rgba(245, 245, 245, 0.31);
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s; }
+    #services2 .boxImage:hover .greyArea, #contact2 .boxImage:hover .greyArea {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      position: relative;
+      background-color: rgba(255, 255, 255, 0.66);
+      color: #000;
+      height: 100%; }
+  #services2 .greyArea, #contact2 .greyArea {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    width: 100%;
+    height: 20%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.66);
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s; }
+    #services2 .greyArea h3, #contact2 .greyArea h3 {
+      font-size: 2rem; }
+
+#contact2 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  background-image: url("../img/back04.jpg"); }
+  #contact2 h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+    font-weight: bolder;
+    margin: 0px;
+    border-bottom: 2px solid #27ae60;
+    font-weight: 200;
+    margin-bottom: 20px;
+    padding-bottom: 20px; }
+  #contact2 h2 {
+    font-size: 3rem;
+    margin: 0px;
+    padding-bottom: 30px; }
+  #contact2 p {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    font-size: 19px;
+    color: #fff; }
+  #contact2 .boxImage {
+    position: relative;
+    left: 50%;
+    margin-left: -40%;
+    text-align: center;
+    width: 80%;
+    height: 300px;
+    background-color: rgba(142, 142, 142, 0.31);
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s; }
+  #contact2 .greyArea {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    width: 100%;
+    height: 20%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.66);
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s; }
+    #contact2 .greyArea h3 {
+      font-size: 2.8rem; }
+  #contact2 .row {
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 60px;
+    padding-bottom: 60px; }
+    #contact2 .row .info {
+      font-family: 'Montserrat', sans-serif;
+      color: #fff;
+      list-style: none;
+      font-size: 22px; }
+      #contact2 .row .info a {
+        color: #fff; }
+      #contact2 .row .info li {
+        padding-top: 20px;
+        padding-bottom: 20px; }
+        #contact2 .row .info li span {
+          font-size: 40px;
+          padding: 20px; }
+        #contact2 .row .info li a {
+          font-size: 30px; }
+
+footer {
+  background-color: #27ae60;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  padding: 30px 0px;
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px; }
+  footer p {
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 200; }
+
+#contact {
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+  padding: 100px 0px;
+  background-color: white; }
+  #contact ul {
+    padding-left: 0px; }
+    #contact ul li {
+      font-family: 'Montserrat', sans-serif;
+      width: 320px;
+      font-size: 22px;
+      margin-top: 50px;
+      margin-bottom: 50px; }
+  #contact .boxMaps {
+    width: 100%; }
+    #contact .boxMaps .grey {
+      position: absolute;
+      width: 100%;
+      height: 300px;
+      background-color: rgba(0, 0, 0, 0.7);
+      z-index: 42; }
+    #contact .boxMaps .maps {
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 300px;
+      background-image: url("../img/maps.JPG");
+      z-index: -4; }
+    #contact .boxMaps .find {
+      z-index: 42;
+      text-align: center;
+      margin-top: 130px; }
+      #contact .boxMaps .find a {
+        font-size: 22px;
+        font-family: 'Raleway', sans-serif;
+        color: #fff;
+        text-align: center;
+        padding: 20px 40px;
+        border: 2px solid #fff; }
+  #contact .boxInfo {
+    float: right; }
+  #contact h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 4rem;
+    letter-spacing: 3px;
+    color: #000; }
+  #contact ul {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex; }
+    #contact ul li {
+      padding: 0px 20px;
+      padding-top: 50px;
+      list-style: none; }
+      #contact ul li a {
+        padding-left: 15px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        color: #27ae60;
+        letter-spacing: 2px; }
+  #contact label {
+    margin-top: 30px; }
+  #contact button {
+    color: #000; }
+  #contact iframe {
+    width: 100%;
+    height: 200px;
+    padding-bottom: 25px; }
+
+@media screen and (max-width: 1650px) {
+  #page01 .boxText img {
+    width: 400px; }
+  #page01 .boxText .text {
+    width: 500px; }
+    #page01 .boxText .text p {
+      font-family: 'Montserrat', sans-serif;
+      padding-right: 50px;
+      font-size: 22px;
+      padding-top: 35px;
+      padding-bottom: 35px; } }
+
+@media screen and (max-width: 1100px) {
+  #contact ul {
+    display: inline-grid; }
+  #page01 .boxText img {
+    width: 400px; }
+  #page01 .boxText .text {
+    width: 500px; }
+    #page01 .boxText .text h1 {
+      font-family: 'Raleway', sans-serif;
+      margin-top: 0px;
+      font-weight: 200;
+      letter-spacing: 1px;
+      font-size: 45px;
+      font-weight: 800; }
+    #page01 .boxText .text h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 30px;
+      font-weight: 200; }
+    #page01 .boxText .text p {
+      font-family: 'Montserrat', sans-serif;
+      padding-right: 50px;
+      font-size: 18px;
+      padding-top: 35px;
+      padding-bottom: 35px; } }
+
+@media screen and (max-width: 768px) {
+  #services2 .greyArea {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.66);
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s; }
+  #services2 .boxImage:hover .greyArea {
+    display: inherit;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start; }
+  header ul {
+    display: grid; }
+  #page01 .boxText img {
+    width: 320px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+  #page01 .boxText .text {
+    width: 100%;
+    text-align: center; }
+    #page01 .boxText .text h1 {
+      font-family: 'Raleway', sans-serif;
+      margin-top: 0px;
+      font-weight: 200;
+      letter-spacing: 1px;
+      font-size: 45px;
+      font-weight: 800; }
+    #page01 .boxText .text h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 30px;
+      font-weight: 200; }
+    #page01 .boxText .text p {
+      font-family: 'Montserrat', sans-serif;
+      padding: 10px 20px;
+      font-size: 18px;
+      padding-top: 35px;
+      padding-bottom: 35px; }
+  #presentation .boxText, #services2 .boxText, #contact2 .boxText {
+    left: 0px;
+    margin-left: 0px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px; }
+    #presentation .boxText h1, #services2 .boxText h1, #contact2 .boxText h1 {
+      font-size: 4rem; }
+    #presentation .boxText h2, #services2 .boxText h2, #contact2 .boxText h2 {
+      font-size: 2.3rem; }
+  #contact h2 {
+    padding-left: 20px;
+    padding-right: 20px; }
+  #contact ul {
+    display: grid;
+    text-align: center;
+    margin-left: 0px;
+    padding-left: 0px; }
+    #contact ul li {
+      width: 100%;
+      text-align: center; } }
