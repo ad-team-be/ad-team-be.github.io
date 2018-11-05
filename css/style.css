@@ -108,7 +108,7 @@ header .navbar {
         letter-spacing: 1px;
         font-size: 5rem;
         font-weight: bolder;
-        color: #27ae60; }
+        color: #FFF; }
       #page01 .boxText .text h2 {
         font-family: 'Montserrat', sans-serif;
         font-size: 3rem;
@@ -117,16 +117,17 @@ header .navbar {
       #page01 .boxText .text p {
         font-family: 'Montserrat', sans-serif;
         padding-right: 50px;
-        color: #fff;
+        color: #fff; /* 27ae60 */
         font-size: 22px;
         padding-top: 35px;
         padding-bottom: 35px;
         font-weight: 200; }
       #page01 .boxText .text a {
-        color: #27ae60; }
+        color: #FFF; font-weight: bolder; } /* 27ae60 */
+
       #page01 .boxText .text i {
         font-weight: bolder;
-        color: #27ae60; }
+        color: #FFF; } /* 27ae60 */
       #page01 .boxText .text .button {
         font-size: 18px;
         border: 2px solid #27ae60;
@@ -376,7 +377,7 @@ footer {
 #contact {
   overflow: hidden;
   font-family: 'Montserrat', sans-serif;
-  padding: 100px 0px;
+  padding: 30px 0px; /* 100px 0px; */
   background-color: white; }
   #contact ul {
     padding-left: 0px; }
