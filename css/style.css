@@ -76,7 +76,7 @@ header .navbar {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../img/back01.jpg");
+  background-image: url("../img/back01.jpg"); 
   background-color: #2a2937;
   background-position: 50% 50%;
   height: auto;
