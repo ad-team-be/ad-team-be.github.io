@@ -212,7 +212,8 @@ header .navbar {
   background-size: cover;
   padding-top: 60px;
   padding-bottom: 70px;
-  background-image: url("../img/back03.jpg"); }
+/*  background-image: url("../img/back03.jpg"); */
+background-color: rgba(48,48,48,0.9) }
   #services2 h1, #contact2 h1 {
     color: #fff;
     font-size: 3.8rem; }
