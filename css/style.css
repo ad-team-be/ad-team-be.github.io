@@ -179,8 +179,8 @@ header .navbar {
   background-image: url("../img/back02.jpg"); }
   #presentation .boxText {
     position: relative;
-    padding-top: 250px;
-    padding-bottom: 250px;
+    padding-top: 20px;
+    padding-bottom: 40px;
     width: 60%;
     left: 50%;
     margin-left: -30%;
@@ -210,8 +210,8 @@ header .navbar {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 250px;
-  padding-bottom: 250px;
+  padding-top: 60px;
+  padding-bottom: 70px;
   background-image: url("../img/back03.jpg"); }
   #services2 h1, #contact2 h1 {
     color: #fff;
@@ -295,8 +295,8 @@ header .navbar {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 250px;
-  padding-bottom: 250px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-image: url("../img/back04.jpg"); }
   #contact2 h1 {
     font-family: 'Montserrat', sans-serif;
